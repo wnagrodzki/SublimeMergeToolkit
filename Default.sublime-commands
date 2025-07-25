@@ -21,5 +21,12 @@
         "args": {
             "argv": ["openterminalatpath", "$working_dir"]
         }
+    },
+    { 
+        "caption": "Open Repository in iTerm", 
+        "command": "git", 
+        "args": {
+            "argv": ["openitermatpath", "$working_dir"]
+        }
     }
 ]
