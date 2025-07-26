@@ -28,5 +28,12 @@
         "args": {
             "argv": ["openitermatpath", "$working_dir"]
         }
+    },
+    { 
+        "caption": "Fetch and Fast Forward...",
+        "command": "git",
+        "args": {
+            "argv": ["fetchandfastforward", "$select_local_branch"]
+        }
     }
 ]
